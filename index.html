@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Block | CSS</title>
+    <style>
+        body {
+            background-color: rgb(221, 169, 232);
+        }
+        #city {
+            background-color: #ecb3ff;
+            width: 400px;
+            height: 400px;
+            border: 5px solid #cc33ff;
+        }
+        #square {
+            background-color: #df80ff;
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            margin-right: -4px;
+        }
+        .streetA {
+            background-color: #d24dff;
+            width: 250px;
+            height: 150px;
+            /* border: 1px solid red; */
+            display: inline-block;
+        }
+        .streetB {
+            background-color: #d24dff;
+            width: 150px;
+            height: 250px;
+            margin-top: -4px;
+        }
+        .left-band {
+            border-right: 2px solid white;
+            width: 73px;
+            height: inherit;
+        }
+        .band-marker {
+            border-right: 2px dotted white;
+            width: 36px;
+            height: inherit;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="city">
+        <div id="square">     
+        </div>
+
+        <div class="streetA">
+
+        </div>
+
+        <div class="streetB">
+            <div class="left-band">
+                <div class="band-marker"></div>
+            </div>
+
+        </div>
+  
+
+    </div>
+
+
+    
+</body>
+</html>
